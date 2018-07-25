@@ -12,8 +12,12 @@ function inc(a) {
 function dec(a) {
    return (a - 1)}
 
-function makeInt(a) {
-  return parseInt(a + '2')}
+function makeInt(a) {{
+  return parseInt(a)}
+  if (makeInt('a')) {
+    return parseInt('nnn', 'a')
+}}
   
-  
+function preserveDecimal(a) {
+  return parseFloat(a)}
   
